@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@10.73.97.24:chandan_kumar22/multi-date-picker.git"
+    "url": "git+https://github.com/007krcs/ck-multi-date-picker.git"
   },
   "author": "",
   "license": "ISC",
