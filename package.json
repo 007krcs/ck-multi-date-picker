@@ -2,7 +2,7 @@
   "name": "ck-multi-date-picker",
   "version": "1.0.0",
   "description": "Multi date picker",
-  "main": "ck-datepicker.js",
+  "main": "ck-datepicker-dialog.js",
   "directories": {
     "test": "test"
   },
@@ -16,7 +16,10 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/007krcs/ck-multi-date-picker.git#/issues"
+    "url": "https://github.com/007krcs/ck-multi-date-picker.git#issue"
   },
-  "homepage": "https://github.com/007krcs/ck-multi-date-picker.git#readme"
+  "homepage": "https://github.com/007krcs/ck-multi-date-picker.git#readme",
+  "dependencies": {
+    "ck-multi-date-picker": "git+https://github.com/007krcs/ck-multi-date-picker.git"
+  }
 }
