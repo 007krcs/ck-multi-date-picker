@@ -1,5 +1,5 @@
 {
-  "name": "multi-date-picker",
+  "name": "ck-multi-date-picker",
   "version": "1.0.0",
   "description": "Multi date picker",
   "main": "ck-datepicker.js",
