@@ -5,7 +5,7 @@ import {
 import '@polymer/paper-icon-button/paper-icon-button.js';
 import '@polymer/iron-flex-layout/iron-flex-layout.js';
 // import '../moment/moment.js';
-import 'ck-datepicker/ck-month-view.js';
+import './ck-month-view.js';
 
 class ckDatepicker extends PolymerElement {
   static get template() {
@@ -171,7 +171,7 @@ class ckDatepicker extends PolymerElement {
       selectedDates: {
         type: Array,
         notify: true,
-        value: ["02,13,2020", "02,14,2020", "02,15,2020", "02,22,2020", "02,21,2020", "02,29,2020"]
+        value: []
       },
       rangedate: {
         type: Boolean,
