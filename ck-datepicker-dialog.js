@@ -6,7 +6,7 @@ import '@polymer/paper-dialog/paper-dialog.js';
 import '@polymer/paper-icon-button/paper-icon-button.js';
 import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
 import '@polymer/iron-icons/iron-icons.js';
-import 'ck-datepicker/ck-datepicker.js';
+import './ck-datepicker.js';
 
 class ckDatepickerDialog extends PolymerElement {
   static get template() {
@@ -83,7 +83,7 @@ class ckDatepickerDialog extends PolymerElement {
           </div>
           <paper-dialog aria-modal="true" modal id="dialog" on-keydown="_handleEscape">
               <div class="scrollable-content height-for-content-div">
-                <sched-datepicker date="{{date}}" m-date="{{mDate}}" date-format="{{dateFormat}}" m-date-trigger="{{mDateTrigger}}" is-selected="{{isSelected}}" min-date="{{minDate}}" max-date="{{maxDate}}" available-dates="{{availableDates}}" multidate="[[multidate]]" selected-dates="{{selectedDates}}" rangedate="[[rangedate]]" selected-range="{{selectedRange}}"></sched-datepicker>
+                <ck-datepicker date="{{date}}" m-date="{{mDate}}" date-format="{{dateFormat}}" m-date-trigger="{{mDateTrigger}}" is-selected="{{isSelected}}" min-date="{{minDate}}" max-date="{{maxDate}}" available-dates="{{availableDates}}" multidate="[[multidate]]" selected-dates="{{selectedDates}}" rangedate="[[rangedate]]" selected-range="{{selectedRange}}"></ck-datepicker>
               </div>
           </paper-dialog>
 
@@ -125,7 +125,7 @@ class ckDatepickerDialog extends PolymerElement {
       selectedDates: {
         type: Array,
         notify: true,
-        value: ["02,13,2020", "02,14,2020", "02,15,2020", "02,22,2020", "02,21,2020", "02,29,2020"]
+        value: []
       },
       rangedate: {
         type: Boolean,
